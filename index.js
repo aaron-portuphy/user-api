@@ -1,5 +1,6 @@
 import express from 'express';
 import { dbconnect } from './config/db.js';
+import { userRouter } from './Router/userRouter.js';
 
 
 // Assign express to app variable
